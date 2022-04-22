@@ -37,9 +37,18 @@ a{
     flex-direction:row;
     justify-content:space-between;
 }
-.main{
-    margin-top: 24px;
+.main__container{
+    border:1px solid black;
+    width:1146px;
+    
 }
+.main-services{
+    width: 231px;
+    height: 376px;
+    margin-top: 51px;
+    border: 1px solid black;
+}
+
 .img1{
     width: 27px;
     height: 27px;
@@ -47,6 +56,10 @@ a{
 .img2{
     width: 15px;
     height: 15px;
+}
+.img-serv{
+    width: 30px;
+    height: 30px;
 }
 .header_logo{
     display: flex;
@@ -132,6 +145,7 @@ a{
     flex-direction: row;
     gap:30px;
     align-items: center;
+    margin-top: 45px;
 }
 .main-cards2{
     margin-top:60px;
