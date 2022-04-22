@@ -22,6 +22,7 @@ a{
     margin:0 auto;
     width: 1440px;
     height: 900px;
+    
 }
 .wrapper{
     width: 1146px;
@@ -124,12 +125,22 @@ a{
 .bt2:hover{
     box-shadow: 0 0 10px rgba(0,0,0,0.5)
 }
-.main-cards{
+.main-cards1{
     width: 852px;
     height: 298px;
     display: flex;
     flex-direction: row;
     gap:30px;
+    align-items: center;
+}
+.main-cards2{
+    margin-top:60px;
+    width: 852px;
+    height: 298px;
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    align-items: center;
 }
 .card{
     width: 264px;
