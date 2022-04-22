@@ -11,6 +11,9 @@ a{
     text-decoration: none;
     color: #0A143A;
 }
+.price{
+    font-weight:700;
+}
 .text{
     font-size: 24px;
     color:#0A143A;
@@ -62,6 +65,7 @@ a{
 .header__n{
     width: 60%;
     font-size: 14px;
+    
 }
 .nav__item:hover{
     text-decoration:underline;
@@ -114,4 +118,29 @@ a{
 }
 .bt2:hover{
     box-shadow: 0 0 10px rgba(0,0,0,0.5)
+}
+.main-cards{
+    width: 852px;
+    height: 298px;
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
+.card{
+    width: 264px;
+    height: 178px;
+}
+
+.ttilec{
+    font-size: 16px;
+    color:#256EEB;
+}
+.card-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-text{
+    color:#C4C4C4;
 }
