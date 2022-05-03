@@ -150,7 +150,6 @@ a{
     flex-direction: row;
     gap:30px;
     align-items: center;
-    margin-top: 45px;
 }
 .main-cards2{
     margin-top:60px;
@@ -178,6 +177,7 @@ a{
 }
 .card-text{
     color:#C4C4C4;
+    font-size: 14px;
 }
 .main-info{
     border: 1px solid black;
@@ -191,6 +191,7 @@ a{
 }
 .main-text{
     color: #0A143A;
+    margin-top: 42px;
 }
 .serv-text{
     color: #0A143A;
@@ -206,4 +207,28 @@ a{
     width: 261px;
     height: 2px;
     background-color: #E5E5E5;
+}
+.footer__container{
+    border: 1px solid black;
+    width: 261px;
+    height: 200px;
+    margin-left: 880px;
+    margin-top:-300px;
+}
+.footer-a{
+    text-decoration:underline;
+    color: #C4C4C4;
+    font-size: 14px;
+}
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-left: -1px;
+    margin-top: 16px;
+    font-size: 12px;
+    gap:5px;
+}
+.nav__item-footer{
+    align-items:flex-start;
 }
