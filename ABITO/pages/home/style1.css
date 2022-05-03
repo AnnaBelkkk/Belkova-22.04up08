@@ -7,6 +7,7 @@
 * {
     font-family: 'Montserrat', sans-serif;
 }
+
 a{
     text-decoration: none;
     color: #0A143A;
@@ -46,7 +47,8 @@ a{
     width: 231px;
     height: 376px;
     border: 1px solid black;
-    margin-left: 852px;
+    margin-left: 882px;
+    margin-top: -702px;
 }
 
 .img1{
@@ -178,4 +180,7 @@ a{
     border: 1px solid black;
     height:800px;
     width: 852px;
+}
+.serv-title{
+    color: #0A143A;
 }
