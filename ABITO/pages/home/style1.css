@@ -45,10 +45,13 @@ a{
 }
 .main-services{
     width: 231px;
-    height: 376px;
+    height: 380px;
     border: 1px solid black;
     margin-left: 882px;
-    margin-top: -702px;
+    margin-top: -602px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 .img1{
@@ -176,11 +179,31 @@ a{
 .card-text{
     color:#C4C4C4;
 }
-.main-cards{
+.main-info{
     border: 1px solid black;
     height:800px;
     width: 852px;
 }
 .serv-title{
     color: #0A143A;
+    font-size: 14px;
+    margin-top:-4px;
+}
+.main-text{
+    color: #0A143A;
+}
+.serv-text{
+    color: #0A143A;
+    font-size: 14px;
+    margin-top: -5px;
+    
+}
+.delivery, .auto, .hostel{
+    width: 217px;
+    height: 110px;
+}
+.line{
+    width: 261px;
+    height: 2px;
+    background-color: #E5E5E5;
 }
