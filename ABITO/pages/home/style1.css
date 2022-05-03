@@ -45,8 +45,8 @@ a{
 .main-services{
     width: 231px;
     height: 376px;
-    margin-top: 51px;
     border: 1px solid black;
+    margin-left: 852px;
 }
 
 .img1{
@@ -173,4 +173,9 @@ a{
 }
 .card-text{
     color:#C4C4C4;
+}
+.main-cards{
+    border: 1px solid black;
+    height:800px;
+    width: 852px;
 }
