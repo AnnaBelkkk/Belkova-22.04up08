@@ -133,24 +133,39 @@ a{
    
 }
 .input_bg{
-    height: 50px;
+    height: 46px;
     width: 1146px;
-    background-color: white;
-    margin-top: 84px;
+    background-color:#256EEB;
+    margin-top: 88px;
     display: flex;
     align-items: center;
     border-radius: 5px;
     border: 3px solid #256EEB;
+    
+}
+.input_block{
+    height: 46px;
+    width: 1052px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #256EEB;
+    display: flex;
+    align-items: center;
 }
 .bt2{
-    width: 1030px;
-    border-radius: 5px;
+    width: 900px;
     background-color: white;
-    border: 0px;
+    border:none;
+    margin-left: 21px;
+    
 }
+.bt2:active, :hover, :focus{
+    outline: 0;
+    outline-offset: 0;
+}
+
 .bt3{
     border: 0px;
-    
     background-color: #256EEB;
     
 }
@@ -163,13 +178,22 @@ a{
     margin-right:10px;
     
 }
-
+.imgandbt3{
+    background-color: #256EEB;
+    width: 116px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    
+}
 .bt3:hover{
     box-shadow: 0 0 10px rgba(0,0,0,0.5)
 }
-.bt2:hover{
+
+.input_bg:focus{
     box-shadow: 0 0 10px rgba(0,0,0,0.5)
 }
+
 .main-cards1{
     width: 852px;
     height: 298px;
@@ -197,8 +221,13 @@ a{
 }
 .card:hover{
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    cursor:context-menu;
+    border-radius: 10px;
 }
+.ttilec:hover{
+    text-decoration:underline;
+    color: #0A143A;
+}
+
 .ttilec{
     font-size: 16px;
     color:#256EEB;
@@ -238,6 +267,7 @@ a{
     margin-right: 106px;
     margin-top: 51px;
 }
+
 .title{
     display: flex;
     justify-content: space-between;
