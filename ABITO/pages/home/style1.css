@@ -67,7 +67,7 @@ a{
     height: 410px;
     border: 0px solid black;
     margin-left: 882px;
-    margin-top: -620px;
+    margin-top: -618gitpx;
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -224,9 +224,14 @@ a{
     color: #256EEB;
 }
 .card-img:hover{
+    cursor: grab;
+}
+.card:hover{
     box-shadow: 0 14px 28px rgba(0,0,0,0.25);
     border-radius: 10px;
+    cursor: grab;
 }
+
 .ttilec:hover{
     text-decoration:underline;
     color: #0A143A;
@@ -255,6 +260,7 @@ a{
     width: 852px;
     margin-top:10px;
 }
+
 .serv-title{
     color: #0A143A;
     font-size: 14px;
