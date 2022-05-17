@@ -48,7 +48,7 @@ a{
     font-size: 14px;
     text-decoration: none;
     color: #0A143A;
-    margin-left: ;
+    margin-left:-25px;
 }
 .nav{
     display: flex;
@@ -67,7 +67,7 @@ a{
     font-size: 14px;
 }
 .bt1{
-    width: 163px;
+    width: 166px;
     height: 36px;
     background-color:#256EEB;
     border: 0px;
@@ -79,12 +79,12 @@ a{
 .servis{
     display: flex;
     align-items: center;
-    gap:20px;
+    gap:35px;
     margin-left: 450px;
 }
 .input-bg{
     background-color: #256EEB;
-    margin-top: 87px;
+    margin-top: 89px;
     display: flex;
     flex-direction: row;
     align-items: center;
