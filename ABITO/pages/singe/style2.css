@@ -48,7 +48,8 @@ a{
     font-size: 14px;
     text-decoration: none;
     color: #0A143A;
-    margin-left:-25px;
+    margin-left:-20px;
+    white-space: nowrap;
 }
 .nav{
     display: flex;
@@ -67,7 +68,7 @@ a{
     font-size: 14px;
 }
 .bt1{
-    width: 166px;
+    width: 164px;
     height: 36px;
     background-color:#256EEB;
     border: 0px;
@@ -79,8 +80,8 @@ a{
 .servis{
     display: flex;
     align-items: center;
-    gap:35px;
-    margin-left: 450px;
+    gap:25px;
+    margin-left: 460px;
 }
 .input-bg{
     background-color: #256EEB;
@@ -117,6 +118,15 @@ a{
     height: 15px;
     margin-left: 10px;
 }
+.img3{
+    margin-top: 5px;
+    width: 460px;
+    height: 357px;
+}
+.img4{
+    width: 68px;
+    height: 53px;
+}
 .bt3:hover{
     box-shadow: 0 0 10px rgba(0,0,0,0.5)
 }
@@ -135,8 +145,50 @@ a{
     font-size: 24px;
     color:#0A143A;
 }
+
 .main__container{
     border:1px solid black;
     width:1146px;
-    
+}
+.main-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.main-info{
+    width: 460px;
+    border:1px solid black;
+    height: 740px;
+}
+.main-info2{
+    width: 362px;
+    border:1px solid black;
+    height: 740px;
+}
+.main-info3{
+    width: 264px;
+    border:1px solid black;
+    height: 740px;
+}
+.t1{
+    font-size: 24px;
+    color:#0A143A;
+    margin-top: 42px;
+}
+.main-card{
+    margin-top: 10px;
+}
+.main-text{
+    color:#0A143A;
+    font-size: 14px;
+    margin-top: 30px;
+    line-height:140%;
+}
+.main-title{
+    color:#0A143A;
+    font-size: 14px;
 }
