@@ -58,14 +58,14 @@ a{
     justify-content:space-between;
 }
 .main__container{
-    border:1px solid black;
+    border:0px solid black;
     width:1146px;
     
 }
 .main-services{
     width: 231px;
     height: 410px;
-    border: 1px solid black;
+    border: 0px solid black;
     margin-left: 882px;
     margin-top: -558px;
     display: flex;
@@ -215,7 +215,7 @@ a{
 }
 
 .main-info{
-    border: 1px solid black;
+    border: 0px solid black;
     height:800px;
     width: 852px;
     margin-top: -54px;
@@ -259,7 +259,7 @@ a{
 }
 
 .footer__container{
-    border: 1px solid black;
+    border: 0px solid black;
     width: 261px;
     height: 200px;
     margin-left: 880px;
@@ -288,4 +288,12 @@ a{
 }
 .nav__item-footer{
     align-items:flex-start;
+}
+@media(max-width:320px){
+    .wrapper{
+        max-width: 270px;
+    }
+    .header__nav{
+        display: none;
+    }
 }
