@@ -67,10 +67,10 @@ a{
     height: 410px;
     border: 0px solid black;
     margin-left: 882px;
-    margin-top: -558px;
+    margin-top: -620px;
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 25px;
 }
 
 .img1{
@@ -196,22 +196,23 @@ a{
 
 .main-cards1{
     width: 852px;
-    height: 298px;
+    height: 300px;
     display: flex;
     flex-direction: row;
     gap:30px;
-    align-items: center;
+
+    border: 0px solid black;
 }
 .main-cards2{
-    margin-top:20px;
+    margin-top:14px;
     width: 852px;
-    height: 298px;
+    height: 300px;
     display: flex;
     flex-direction: row;
     gap:30px;
-    align-items: center;
+    border: 0px solid black;
 }
-.card{
+.card-img{
     width: 264px;
     height: 178px;
     
@@ -219,8 +220,8 @@ a{
 .sun{
     color: #256EEB;
 }
-.card:hover{
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+.card-img:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25);
     border-radius: 10px;
 }
 .ttilec:hover{
@@ -247,9 +248,9 @@ a{
 
 .main-info{
     border: 0px solid black;
-    height:800px;
+    height:650px;
     width: 852px;
-    margin-top: -54px;
+    margin-top:10px;
 }
 .serv-title{
     color: #0A143A;
@@ -320,6 +321,9 @@ a{
 }
 .nav__item-footer{
     align-items:flex-start;
+}
+.nav__item-footer:hover{
+    color: #256EEB;
 }
 @media(max-width:320px){
     .wrapper{
