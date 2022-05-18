@@ -84,31 +84,68 @@ a{
     gap:25px;
     margin-left: 460px;
 }
-.input-bg{
-    background-color: #256EEB;
-    margin-top: 89px;
+.input_bg{
+    height: 46px;
+    width: 1146px;
+    background-color:#256EEB;
+    margin-top: 88px;
     display: flex;
-    flex-direction: row;
     align-items: center;
     border-radius: 5px;
-    justify-content: space-between;
-    width: 1146px;
+    border: 3px solid #256EEB;
     
+}
+.input_block{
+    height: 46px;
+    width: 1052px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #256EEB;
+    display: flex;
+    align-items: center;
+}
+.input_bg:focus-within{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 .bt2{
-    width: 1030px;
-    height: 42px;
-    border: 3px solid #256EEB;
-    border-radius: 5px;
+    width: 900px;
     background-color: white;
+    border:none;
+    margin-left: 21px;
     
 }
+.bt2:active, :hover, :focus{
+    outline: 0;
+    outline-offset: 0;
+}
+
 .bt3{
     border: 0px;
-    width: 72px;
-    height: 19px;
     background-color: #256EEB;
     
+}
+.text2{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    background-color: #256EEB;
+    border: 0px;
+    margin-right:10px;
+    
+}
+.imgandbt3{
+    background-color: #256EEB;
+    width: 116px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+.bt3:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5)
+}
+.input_bg:focus{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5)
 }
 .img1{
     width: 27px;
@@ -131,9 +168,7 @@ a{
 .bt3:hover{
     box-shadow: 0 0 10px rgba(0,0,0,0.5)
 }
-.bt2:hover{
-    box-shadow: 0 0 10px rgba(0,0,0,0.5)
-}
+
 .text2{
     color: white;
     font-size: 16px;
