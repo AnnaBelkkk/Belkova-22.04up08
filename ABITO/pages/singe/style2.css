@@ -189,7 +189,84 @@ a{
     margin-top: 30px;
     line-height:140%;
 }
+.sun{
+    color: #256EEB;
+}
 .main-title{
     color:#0A143A;
     font-size: 14px;
+    margin-top: 25px;
+}
+.star{
+    width: 62px;
+    height: 10px;
+}
+.main-rating{
+    height: 160px;
+}
+.stars-review{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 150px;
+    height: 20px;
+    margin-top: -10px;
+
+}
+.review{
+    color: #0A143A;
+    font-size: 14px;
+    
+}
+.human{
+    color:#0A143A;
+    font-size: 12px;
+    margin-top: -1px;
+}
+.photo{
+    width: 50px;
+    height: 50px;
+    margin-left: 212px;
+    margin-top: -60px;
+}
+.men{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.show-button{
+    width: 264px;
+    height: 54px;
+    background-color: #256EEB;
+    border-radius: 5px;
+    border: none;
+}
+.chat-button{
+    width: 264px;
+    height: 54px;
+    background-color: #14B4BE;
+    border-radius: 5px;
+    border: none;
+}
+.main-buttons{
+    margin-top:-21px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.bt-text{
+    color: white;
+    font-size: 14px;
+}
+.blocks{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap:7px;
+    margin-top: 42px;
+}
+.image{
+    width: 264px;
+    height: 185px;
 }
